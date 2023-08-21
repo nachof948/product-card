@@ -131,3 +131,17 @@ h2{
     background-color: rgb(194,205,208);
     color: white;
 }
+
+@media (max-width: 375px) {
+    .tarjeta{
+        width: 18.5rem;
+    }
+    .img-producto button{
+        top: 11.5rem;
+        left: 15.5rem;
+    }
+    .btn-compra{
+        background-color: #0087ff;
+        padding: 0.84rem 1.4rem;
+    }
+}
